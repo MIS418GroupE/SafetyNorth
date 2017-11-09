@@ -25,3 +25,9 @@ C:/Users/sombach/Desktop/UniServZ_WordPress/UniServerZ/core/msmtp/msmtp.exe: cou
 [Mon Sep 25 16:33:58.539500 2017] [core:notice] [pid 5380:tid 156] AH00094: Command line: 'C:\\Users\\sombach\\Desktop\\UniServZ_WordPress\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/sombach/Desktop/UniServZ_WordPress/UniServerZ/core/apache2 -f C:\\Users\\sombach\\Desktop\\UniServZ_WordPress\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\sombach\\Desktop\\UniServZ_WordPress\\UniServerZ\\core\\apache2'
 [Mon Sep 25 16:33:58.540500 2017] [mpm_winnt:notice] [pid 5380:tid 156] AH00418: Parent: Created child process 9112
 [Mon Sep 25 16:33:58.929500 2017] [mpm_winnt:notice] [pid 9112:tid 272] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 08 19:15:10.992848 2017] [core:warn] [pid 2912:tid 220] AH00098: pid file C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 08 19:15:11.086853 2017] [mpm_winnt:notice] [pid 2912:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Nov 08 19:15:11.086853 2017] [mpm_winnt:notice] [pid 2912:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Nov 08 19:15:11.086853 2017] [core:notice] [pid 2912:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Wed Nov 08 19:15:11.090853 2017] [mpm_winnt:notice] [pid 2912:tid 220] AH00418: Parent: Created child process 3704
+[Wed Nov 08 19:15:12.535936 2017] [mpm_winnt:notice] [pid 3704:tid 296] AH00354: Child: Starting 150 worker threads.
