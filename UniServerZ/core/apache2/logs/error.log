@@ -57,3 +57,15 @@ libpng warning: iCCP: known incorrect sRGB profile
 [Sat Nov 11 01:04:43.831761 2017] [php7:notice] [pid 19336:tid 1508] [client ::1:52001] , referer: http://localhost:8080/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8080%2Fwordpress%2F&changeset_uuid=35a0782a-0ba3-468f-bea3-54fa388edb46
 [Sat Nov 11 01:06:17.273105 2017] [php7:notice] [pid 19336:tid 1508] [client ::1:52065] , referer: http://localhost:8080/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8080%2Fwordpress%2F&changeset_uuid=ae34f88a-d11e-4e59-9a08-829b1a513e85
 [Sat Nov 11 01:09:18.814235 2017] [php7:notice] [pid 19336:tid 1500] [client ::1:52133] , referer: http://localhost:8080/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8080%2Fwordpress%2F&changeset_uuid=57d05144-c010-4088-a069-c7a3d11bd70a
+[Wed Nov 15 14:09:42.123363 2017] [core:warn] [pid 5484:tid 220] AH00098: pid file C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 15 14:09:45.557560 2017] [mpm_winnt:notice] [pid 5484:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Nov 15 14:09:45.557560 2017] [mpm_winnt:notice] [pid 5484:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Nov 15 14:09:45.557560 2017] [core:notice] [pid 5484:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Wed Nov 15 14:09:45.563560 2017] [mpm_winnt:notice] [pid 5484:tid 220] AH00418: Parent: Created child process 4392
+[Wed Nov 15 14:09:47.026644 2017] [mpm_winnt:notice] [pid 4392:tid 296] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 15 14:10:05.885723 2017] [core:warn] [pid 6920:tid 220] AH00098: pid file C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 15 14:10:05.957727 2017] [mpm_winnt:notice] [pid 6920:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Nov 15 14:10:05.958727 2017] [mpm_winnt:notice] [pid 6920:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Nov 15 14:10:05.958727 2017] [core:notice] [pid 6920:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Wed Nov 15 14:10:05.961727 2017] [mpm_winnt:notice] [pid 6920:tid 220] AH00418: Parent: Created child process 6932
+[Wed Nov 15 14:10:07.474813 2017] [mpm_winnt:notice] [pid 6932:tid 296] AH00354: Child: Starting 150 worker threads.
