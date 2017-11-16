@@ -75,3 +75,9 @@ libpng warning: iCCP: known incorrect sRGB profile
 [Wed Nov 15 15:26:29.745092 2017] [core:notice] [pid 8760:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2'
 [Wed Nov 15 15:26:29.747092 2017] [mpm_winnt:notice] [pid 8760:tid 220] AH00418: Parent: Created child process 8004
 [Wed Nov 15 15:26:30.605141 2017] [mpm_winnt:notice] [pid 8004:tid 296] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 15 23:55:03.376921 2017] [core:warn] [pid 9004:tid 220] AH00098: pid file C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 15 23:55:03.435924 2017] [mpm_winnt:notice] [pid 9004:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Nov 15 23:55:03.435924 2017] [mpm_winnt:notice] [pid 9004:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Nov 15 23:55:03.435924 2017] [core:notice] [pid 9004:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Wed Nov 15 23:55:03.439925 2017] [mpm_winnt:notice] [pid 9004:tid 220] AH00418: Parent: Created child process 12728
+[Wed Nov 15 23:55:05.048017 2017] [mpm_winnt:notice] [pid 12728:tid 296] AH00354: Child: Starting 150 worker threads.
