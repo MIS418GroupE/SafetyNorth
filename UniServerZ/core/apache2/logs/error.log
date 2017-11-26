@@ -28498,3 +28498,237 @@ VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
 [Sat Nov 25 16:07:24.433009 2017] [php7:warn] [pid 11180:tid 1768] [client ::1:54901] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=133&action=edit
 [Sat Nov 25 16:08:40.832652 2017] [php7:warn] [pid 11180:tid 1740] [client ::1:54953] PHP Warning:  Illegal string offset 'items_per_page' in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\download-manager\\tpls\\wpdm-all-downloads.php on line 5, referer: http://localhost:8080/wordpress/
 [Sat Nov 25 16:09:08.835971 2017] [php7:warn] [pid 11180:tid 1740] [client ::1:54974] PHP Warning:  Illegal string offset 'items_per_page' in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\download-manager\\tpls\\wpdm-all-downloads.php on line 5, referer: http://localhost:8080/wordpress/product/hard-hat/
+[Sat Nov 25 17:03:16.857534 2017] [core:warn] [pid 11676:tid 172] AH00098: pid file C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 25 17:03:16.882050 2017] [mpm_winnt:notice] [pid 11676:tid 172] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sat Nov 25 17:03:16.882050 2017] [mpm_winnt:notice] [pid 11676:tid 172] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Nov 25 17:03:16.882050 2017] [core:notice] [pid 11676:tid 172] AH00094: Command line: 'C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sat Nov 25 17:03:16.884050 2017] [mpm_winnt:notice] [pid 11676:tid 172] AH00418: Parent: Created child process 11536
+[Sat Nov 25 17:03:17.535159 2017] [mpm_winnt:notice] [pid 11536:tid 560] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:07:59.840641 2017] [php7:error] [pid 11536:tid 1796] [client ::1:56856] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\themes\\ascend\\themeoptions\\redux\\inc\\fields\\typography\\googlefonts.php on line 1, referer: http://localhost:8080/wordpress/wp-admin/nav-menus.php
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:08.874270 2017] [php7:error] [pid 11536:tid 1800] [client ::1:56867] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\widgets\\class-wp-widget-media-audio.php on line 188, referer: http://localhost:8080/wordpress/
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:08.874770 2017] [php7:error] [pid 11536:tid 1800] [client ::1:56867] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-woocommerce.php on line 191, referer: http://localhost:8080/wordpress/
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:17.539882 2017] [php7:error] [pid 11536:tid 1804] [client ::1:56877] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1448, referer: http://localhost:8080/wordpress/wp-admin/nav-menus.php
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:21.162471 2017] [php7:error] [pid 11536:tid 1804] [client ::1:56880] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1448
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:24.026237 2017] [php7:error] [pid 11536:tid 1796] [client ::1:56883] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1448
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:29.225787 2017] [php7:error] [pid 11536:tid 1792] [client ::1:56884] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\template.php on line 1033
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:29.226787 2017] [php7:error] [pid 11536:tid 1792] [client ::1:56884] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 49152 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\functions.php on line 3721
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:32.595632 2017] [php7:error] [pid 11536:tid 1804] [client ::1:56890] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 8192 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1364
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:35.854447 2017] [php7:error] [pid 11536:tid 1796] [client ::1:56893] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 8192 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1364
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:08:44.543045 2017] [core:warn] [pid 9856:tid 536] AH00098: pid file C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 25 17:08:44.560862 2017] [mpm_winnt:notice] [pid 9856:tid 536] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sat Nov 25 17:08:44.560862 2017] [mpm_winnt:notice] [pid 9856:tid 536] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Nov 25 17:08:44.560862 2017] [core:notice] [pid 9856:tid 536] AH00094: Command line: 'C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sat Nov 25 17:08:44.562863 2017] [mpm_winnt:notice] [pid 9856:tid 536] AH00418: Parent: Created child process 5004
+[Sat Nov 25 17:08:45.101345 2017] [mpm_winnt:notice] [pid 5004:tid 616] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:18:15.664883 2017] [php7:error] [pid 5004:tid 1772] [client ::1:57443] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 49152 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\class-wp-admin-bar.php on line 463, referer: http://localhost:8080/wordpress/lp-courses/
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:18:18.849703 2017] [php7:error] [pid 5004:tid 1732] [client ::1:57451] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\formatting.php on line 719, referer: http://localhost:8080/wordpress/wp-admin/
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:18:18.850203 2017] [php7:error] [pid 5004:tid 1732] [client ::1:57451] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\load.php on line 677, referer: http://localhost:8080/wordpress/wp-admin/
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:19:51.415487 2017] [php7:error] [pid 5004:tid 1732] [client ::1:57494] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 8192 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\formatting.php on line 2005, referer: http://localhost:8080/wordpress/wp-admin/admin.php?page=learn-press-settings&tab=courses
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:20:18.874103 2017] [php7:error] [pid 5004:tid 1732] [client ::1:57511] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 28672 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\general-template.php on line 1784
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:20:22.135588 2017] [php7:error] [pid 5004:tid 1764] [client ::1:57510] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\themes\\ascend\\themeoptions\\redux\\inc\\fields\\typography\\googlefonts.php on line 1
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:20:25.678254 2017] [php7:error] [pid 5004:tid 1732] [client ::1:57522] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 28672 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\formatting.php on line 2547
+[Sat Nov 25 17:20:31.315528 2017] [core:warn] [pid 9896:tid 536] AH00098: pid file C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 25 17:20:31.334039 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sat Nov 25 17:20:31.334039 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Nov 25 17:20:31.334039 2017] [core:notice] [pid 9896:tid 536] AH00094: Command line: 'C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sat Nov 25 17:20:31.335504 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00418: Parent: Created child process 9188
+[Sat Nov 25 17:20:31.851898 2017] [mpm_winnt:notice] [pid 9188:tid 536] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sat Nov 25 17:30:54.431323 2017] [php7:error] [pid 9188:tid 1760] [client ::1:57962] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 8192 bytes) in C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\general-template.php on line 1856, referer: http://localhost:8080/wordpress/
+[Sat Nov 25 17:30:56.263855 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00428: Parent: child process 9188 exited with status 3221225477 -- Restarting.
+[Sat Nov 25 17:30:56.443203 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sat Nov 25 17:30:56.443203 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Nov 25 17:30:56.443203 2017] [core:notice] [pid 9896:tid 536] AH00094: Command line: 'C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/mlad/Desktop/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\mlad\\Desktop\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sat Nov 25 17:30:56.444704 2017] [mpm_winnt:notice] [pid 9896:tid 536] AH00418: Parent: Created child process 12636
+[Sat Nov 25 17:30:56.959559 2017] [mpm_winnt:notice] [pid 12636:tid 584] AH00354: Child: Starting 150 worker threads.

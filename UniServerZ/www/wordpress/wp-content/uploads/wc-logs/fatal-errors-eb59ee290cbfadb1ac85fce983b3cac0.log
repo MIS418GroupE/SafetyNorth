@@ -6,3 +6,5 @@
 
 2017-11-25T22:50:58+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 458752 bytes)
 
+2017-11-26T00:18:15+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 49152 bytes)
+
