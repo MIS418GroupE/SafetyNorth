@@ -59147,3 +59147,63 @@ VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
 [Mon Nov 27 00:54:20.166084 2017] [php7:warn] [pid 18112:tid 1476] [client ::1:56259] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/plugins.php?plugin_status=all&paged=1&s
 [Mon Nov 27 00:54:20.166084 2017] [php7:warn] [pid 18112:tid 1476] [client ::1:56259] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/plugins.php?plugin_status=all&paged=1&s
 [Mon Nov 27 00:54:20.166084 2017] [php7:warn] [pid 18112:tid 1476] [client ::1:56259] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/plugins.php?plugin_status=all&paged=1&s
+[Mon Nov 27 01:30:26.566734 2017] [core:warn] [pid 16168:tid 220] AH00098: pid file C:/Users/Adil/sn/2/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 27 01:30:26.600736 2017] [mpm_winnt:notice] [pid 16168:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Mon Nov 27 01:30:26.600736 2017] [mpm_winnt:notice] [pid 16168:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Mon Nov 27 01:30:26.600736 2017] [core:notice] [pid 16168:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/2/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Mon Nov 27 01:30:26.602736 2017] [mpm_winnt:notice] [pid 16168:tid 220] AH00418: Parent: Created child process 16484
+[Mon Nov 27 01:30:27.450785 2017] [mpm_winnt:notice] [pid 16484:tid 296] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 27 01:31:12.792378 2017] [php7:error] [pid 16484:tid 1488] [client ::1:56966] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ReduxFramework::_validate_values(), 2 passed in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php on line 2960 and exactly 3 expected in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php:2938\nStack trace:\n#0 C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php(2960): ReduxFramework->_validate_values(Array, Array)\n#1 C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php(2705): ReduxFramework->_validate_values(Array, Array, Array)\n#2 C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php(2834): Redu in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\ultimate-member\\admin\\core\\lib\\ReduxFramework\\ReduxCore\\framework.php on line 2938, referer: http://localhost:8080/wordpress/wp-admin/admin.php?page=kad_options
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:33:41.920908 2017] [php7:error] [pid 16484:tid 1484] [client ::1:57026] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\themes\\ascend\\themeoptions\\options.php on line 2704, referer: http://localhost:8080/wordpress/wp-admin/themes.php?page=kad_options
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:33:41.926908 2017] [php7:error] [pid 16484:tid 1484] [client ::1:57026] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-wc-logger.php on line 1, referer: http://localhost:8080/wordpress/wp-admin/themes.php?page=kad_options
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:34:27.224499 2017] [php7:error] [pid 16484:tid 1480] [client ::1:57063] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 8192 bytes) in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\wc-template-functions.php on line 1705, referer: http://localhost:8080/wordpress/wp-admin/themes.php?page=kad_options
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:34:27.228499 2017] [php7:error] [pid 16484:tid 1480] [client ::1:57063] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-wc-logger.php on line 1, referer: http://localhost:8080/wordpress/wp-admin/themes.php?page=kad_options
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:34:32.338792 2017] [php7:error] [pid 16484:tid 1480] [client ::1:57066] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\Requests\\Cookie\\Jar.php on line 1
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Mon Nov 27 01:34:40.168239 2017] [core:warn] [pid 18208:tid 220] AH00098: pid file C:/Users/Adil/sn/2/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 27 01:34:40.202241 2017] [mpm_winnt:notice] [pid 18208:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Mon Nov 27 01:34:40.202241 2017] [mpm_winnt:notice] [pid 18208:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Mon Nov 27 01:34:40.202241 2017] [core:notice] [pid 18208:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/2/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\2\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Mon Nov 27 01:34:40.205242 2017] [mpm_winnt:notice] [pid 18208:tid 220] AH00418: Parent: Created child process 18632
+[Mon Nov 27 01:34:41.045290 2017] [mpm_winnt:notice] [pid 18632:tid 296] AH00354: Child: Starting 150 worker threads.

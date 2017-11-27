@@ -104,3 +104,9 @@ Stack trace:
 
 2017-11-26T23:06:11+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 114688 bytes)
 
+2017-11-27T01:31:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ReduxFramework::_validate_values(), 2 passed in C:\Users\Adil\sn\2\SafetyNorth\UniServerZ\www\wordpress\wp-content\plugins\ultimate-member\admin\core\lib\ReduxFramework\ReduxCore\framework.php on line 2960 and exactly 3 expected in C:\Users\Adil\sn\2\SafetyNorth\UniServerZ\www\wordpress\wp-content\plugins\ultimate-member\admin\core\lib\ReduxFramework\ReduxCore\framework.php:2938
+Stack trace:
+#0 C:\Users\Adil\sn\2\SafetyNorth\UniServerZ\www\wordpress\wp-content\plugins\ultimate-member\admin\core\lib\ReduxFramework\ReduxCore\framework.php(2960): ReduxFramework->_validate_values(Array, Array)
+#1 C:\Users\Adil\sn\2\SafetyNorth\UniServerZ\www\wordpress\wp-content\plugins\ultimate-member\admin\core\lib\ReduxFramework\ReduxCore\framework.php(2705): ReduxFramework->_validate_values(Array, Array, Array)
+#2 C:\Users\Adil\sn\2\SafetyNorth\UniServerZ\www\wordpress\wp-content\plugins\ultimate-member\admin\core\lib\ReduxFramework\ReduxCore\framework.php(2834): Redu
+
