@@ -58122,3 +58122,477 @@ VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
 [Sun Nov 26 19:05:57.373672 2017] [core:notice] [pid 10148:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
 [Sun Nov 26 19:05:57.375672 2017] [mpm_winnt:notice] [pid 10148:tid 220] AH00418: Parent: Created child process 8048
 [Sun Nov 26 19:05:58.267723 2017] [mpm_winnt:notice] [pid 8048:tid 296] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 26 19:16:40.245324 2017] [core:warn] [pid 3560:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 19:16:40.288326 2017] [mpm_winnt:notice] [pid 3560:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 19:16:40.288326 2017] [mpm_winnt:notice] [pid 3560:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 19:16:40.288326 2017] [core:notice] [pid 3560:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 19:16:40.290326 2017] [mpm_winnt:notice] [pid 3560:tid 220] AH00418: Parent: Created child process 2964
+[Sun Nov 26 19:16:41.117373 2017] [mpm_winnt:notice] [pid 2964:tid 296] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:19:26.869854 2017] [php7:error] [pid 2964:tid 1476] [client ::1:50605] PHP Fatal error:  Out of memory (allocated 44040192) (tried to allocate 8192 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\template.php on line 121, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=225&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:19:33.601194 2017] [php7:error] [pid 2964:tid 1476] [client ::1:50608] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 4096 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\themes\\ascend\\themeoptions\\redux\\inc\\fields\\typography\\googlefonts.php on line 1, referer: http://localhost:8080/wordpress/?s=safety&post_type=product
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:19:39.957558 2017] [php7:error] [pid 2964:tid 1476] [client ::1:50611] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 4096 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\themes\\ascend\\themeoptions\\redux\\inc\\fields\\typography\\googlefonts.php on line 1, referer: http://localhost:8080/wordpress/?s=safety&post_type=product
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:20:25.443159 2017] [php7:error] [pid 2964:tid 1468] [client ::1:50620] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\class-wp-comment-query.php on line 896, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=225&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:21:10.024709 2017] [php7:error] [pid 2964:tid 1468] [client ::1:50624] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 28672 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\comment.php on line 3069, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=225&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:21:11.210777 2017] [php7:error] [pid 2964:tid 1468] [client ::1:50627] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\class-wp-comment-query.php on line 896, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=225&action=edit
+[Sun Nov 26 19:21:24.017510 2017] [core:warn] [pid 13344:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 19:21:24.051511 2017] [mpm_winnt:notice] [pid 13344:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 19:21:24.051511 2017] [mpm_winnt:notice] [pid 13344:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 19:21:24.051511 2017] [core:notice] [pid 13344:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 19:21:24.053512 2017] [mpm_winnt:notice] [pid 13344:tid 220] AH00418: Parent: Created child process 11428
+[Sun Nov 26 19:21:24.944563 2017] [mpm_winnt:notice] [pid 11428:tid 296] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:25:22.618964 2017] [php7:error] [pid 11428:tid 1484] [client ::1:50825] PHP Fatal error:  Out of memory (allocated 39845888) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-wc-background-updater.php on line 1, referer: http://localhost:8080/wordpress/wp-admin/edit.php?post_type=turbo-sidebar-cpt
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:25:22.624964 2017] [php7:error] [pid 11428:tid 1484] [client ::1:50825] PHP Fatal error:  Out of memory (allocated 39845888) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-wc-logger.php on line 1, referer: http://localhost:8080/wordpress/wp-admin/edit.php?post_type=turbo-sidebar-cpt
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.146481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.147481 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.161482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.162482 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.245487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+[Sun Nov 26 19:25:49.246487 2017] [php7:warn] [pid 11428:tid 1468] [client ::1:50821] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=231&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:44:43.095897 2017] [php7:error] [pid 11428:tid 1492] [client ::1:51016] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\class-wp-comment-query.php on line 896, referer: http://localhost:8080/wordpress/wp-cron.php?doing_wp_cron=1511750681.9248299598693847656250
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:45:02.727020 2017] [php7:error] [pid 11428:tid 1492] [client ::1:51027] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\class-wp-comment-query.php on line 896, referer: http://localhost:8080/wordpress/course-vendors/
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.283452 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.297453 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+[Sun Nov 26 19:45:10.378458 2017] [php7:warn] [pid 11428:tid 1496] [client ::1:51040] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:45:10.382458 2017] [php7:error] [pid 11428:tid 1496] [client ::1:51040] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 491520 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\so-widgets-bundle\\base\\inc\\fields\\radio.class.php on line 20, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:45:10.384458 2017] [php7:error] [pid 11428:tid 1496] [client ::1:51040] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 475136 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\functions.php on line 3721, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=232&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:45:19.980007 2017] [php7:error] [pid 11428:tid 1508] [client ::1:51041] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\class-wp-screen.php on line 821
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:45:19.982007 2017] [php7:error] [pid 11428:tid 1508] [client ::1:51041] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 49152 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\functions.php on line 3721
+[Sun Nov 26 19:45:29.020524 2017] [core:warn] [pid 14520:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 19:45:29.059526 2017] [mpm_winnt:notice] [pid 14520:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 19:45:29.059526 2017] [mpm_winnt:notice] [pid 14520:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 19:45:29.059526 2017] [core:notice] [pid 14520:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 19:45:29.062526 2017] [mpm_winnt:notice] [pid 14520:tid 220] AH00418: Parent: Created child process 14528
+[Sun Nov 26 19:45:29.922576 2017] [mpm_winnt:notice] [pid 14528:tid 296] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362
+[Sun Nov 26 19:45:34.098814 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362
+[Sun Nov 26 19:45:34.112815 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362
+[Sun Nov 26 19:45:34.196820 2017] [php7:warn] [pid 14528:tid 1508] [client ::1:51057] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.323920 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.337921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.338921 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+[Sun Nov 26 19:48:50.417926 2017] [php7:warn] [pid 14528:tid 1488] [client ::1:51168] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=237&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:51:36.518081 2017] [php7:error] [pid 14528:tid 1476] [client ::1:51231] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 12288 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\api\\class-wc-rest-shipping-zone-methods-controller.php on line 429, referer: http://localhost:8080/wordpress/wp-cron.php?doing_wp_cron=1511751094.7339780330657958984375
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:52:04.773697 2017] [php7:error] [pid 14528:tid 1508] [client ::1:51250] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 28672 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\template.php on line 40, referer: http://localhost:8080/wordpress/wp-admin/post-new.php?post_type=page
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:52:11.500081 2017] [php7:error] [pid 14528:tid 1508] [client ::1:51253] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\includes\\deprecated.php on line 1368, referer: http://localhost:8080/wordpress/wp-admin/post-new.php?post_type=page&wp-post-new-reload=true
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:52:21.526655 2017] [core:warn] [pid 11208:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 19:52:21.561657 2017] [mpm_winnt:notice] [pid 11208:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 19:52:21.561657 2017] [mpm_winnt:notice] [pid 11208:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 19:52:21.561657 2017] [core:notice] [pid 11208:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 19:52:21.563657 2017] [mpm_winnt:notice] [pid 11208:tid 220] AH00418: Parent: Created child process 13308
+[Sun Nov 26 19:52:22.409705 2017] [mpm_winnt:notice] [pid 13308:tid 296] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:54:23.630639 2017] [php7:error] [pid 13308:tid 1492] [client ::1:51362] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 65536 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\class-wc-cart.php on line 1316, referer: http://localhost:8080/wordpress/wp-admin/edit.php?post_type=page
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 19:54:23.632639 2017] [php7:error] [pid 13308:tid 1492] [client ::1:51362] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 65536 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-includes\\plugin.php on line 453, referer: http://localhost:8080/wordpress/wp-admin/edit.php?post_type=page
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 20:01:04.307443 2017] [php7:error] [pid 13308:tid 1492] [client ::1:51433] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\metaboxes.php on line 450, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 20:01:35.748242 2017] [php7:error] [pid 13308:tid 1500] [client ::1:51456] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-admin\\edit-form-advanced.php on line 379, referer: http://localhost:8080/wordpress/wp-admin/edit.php?post_type=page&paged=2
+[Sun Nov 26 20:01:47.407908 2017] [core:warn] [pid 8500:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 20:01:47.441910 2017] [mpm_winnt:notice] [pid 8500:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 20:01:47.441910 2017] [mpm_winnt:notice] [pid 8500:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 20:01:47.441910 2017] [core:notice] [pid 8500:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 20:01:47.443910 2017] [mpm_winnt:notice] [pid 8500:tid 220] AH00418: Parent: Created child process 1484
+[Sun Nov 26 20:01:48.272958 2017] [mpm_winnt:notice] [pid 1484:tid 296] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 26 20:04:40.251795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.252795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.267795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.267795 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.268796 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+[Sun Nov 26 20:04:40.357801 2017] [php7:warn] [pid 1484:tid 1528] [client ::1:51561] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/post.php?post=245&action=edit
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 20:06:09.938924 2017] [php7:error] [pid 1484:tid 1512] [client ::1:51611] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\widgets-on-pages\\freemius\\includes\\i18n.php on line 294, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 20:06:29.802060 2017] [php7:error] [pid 1484:tid 1512] [client ::1:51614] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\widgets-on-pages\\freemius\\includes\\i18n.php on line 294, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+
+VirtualAlloc() failed: [0x00000008] Not enough storage is available to process this command.
+
+
+VirtualFree() failed: [0x000001e7] Attempt to access invalid address.
+
+[Sun Nov 26 20:06:33.884294 2017] [php7:error] [pid 1484:tid 1516] [client ::1:51619] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\woocommerce\\includes\\admin\\class-wc-admin-assets.php on line 271, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:45.609965 2017] [core:warn] [pid 13992:tid 220] AH00098: pid file C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 26 20:06:45.643967 2017] [mpm_winnt:notice] [pid 13992:tid 220] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Sun Nov 26 20:06:45.643967 2017] [mpm_winnt:notice] [pid 13992:tid 220] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Nov 26 20:06:45.643967 2017] [core:notice] [pid 13992:tid 220] AH00094: Command line: 'C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Adil/sn/SafetyNorth/UniServerZ/core/apache2 -f C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\core\\apache2'
+[Sun Nov 26 20:06:45.645967 2017] [mpm_winnt:notice] [pid 13992:tid 220] AH00418: Parent: Created child process 9100
+[Sun Nov 26 20:06:46.511016 2017] [mpm_winnt:notice] [pid 9100:tid 296] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.916383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:52.932383 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.018388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 356, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 357, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 358, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 359, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 360, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 361, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 362, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
+[Sun Nov 26 20:06:53.019388 2017] [php7:warn] [pid 9100:tid 1496] [client ::1:51647] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\\Users\\Adil\\sn\\SafetyNorth\\UniServerZ\\www\\wordpress\\wp-content\\plugins\\virtue-toolkit\\shortcodes.php on line 363, referer: http://localhost:8080/wordpress/wp-admin/widgets.php
