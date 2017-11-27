@@ -1,1 +1,4 @@
 Sep 25 16:22:41 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com smtpstatus=554 smtpmsg='554 cm6gb1 smtp.talktalk.net ESMTP server not available' errormsg='cannot get initial OK message from server' exitcode=EX_PROTOCOL
+Nov 26 20:21:00 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Nov 26 20:21:21 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=st@y.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Nov 26 20:22:41 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
