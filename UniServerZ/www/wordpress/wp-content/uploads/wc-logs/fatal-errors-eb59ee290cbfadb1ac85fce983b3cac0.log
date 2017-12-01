@@ -116,3 +116,5 @@ Stack trace:
 
 2017-11-29T20:49:15+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes)
 
+2017-11-30T20:17:25+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 458752 bytes)
+
