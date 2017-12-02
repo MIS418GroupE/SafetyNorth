@@ -4,3 +4,14 @@ Nov 26 20:21:21 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.c
 Nov 26 20:22:41 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
 Nov 26 21:04:33 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
 Nov 26 21:04:54 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=test@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 19:56:42 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 19:57:03 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=vtest@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:14:03 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:14:24 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:14:45 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:23:47 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user2@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:24:08 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user2@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:28:46 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:29:09 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:29:30 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=wp_user@wordpress.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL
+Dec 01 20:36:38 host=smtp.tiscali.co.uk tls=off auth=off from=john.doe@tiscali.co.uk recipients=newuser1@test.com errormsg='cannot connect to smtp.tiscali.co.uk, port 25: timeout' exitcode=EX_TEMPFAIL

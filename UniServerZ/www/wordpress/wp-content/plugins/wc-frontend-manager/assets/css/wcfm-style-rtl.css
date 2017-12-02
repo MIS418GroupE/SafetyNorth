@@ -1,0 +1,89 @@
+.wcfm-page-headig {
+  padding-right: 20px;	
+}
+
+#wcfm_menu .wcfm_menu_items a.wcfm_menu_item {
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+#wcfm_menu span.wcfm_sub_menu_items {
+	left: 0%;
+	right: 100%;
+	margin-left: 0px;
+	margin-right: 2px;
+}
+
+#wcfm_menu .wcfm_menu_items a.active::after {
+	left: 0px;
+	border-left-color: #f7f7f7;
+	border-right: 0px;
+  right: auto;
+}
+
+.wcfm_dashboard_welcome_avatar, .wcfm_dashboard_welcome_content::before, .wcfm-page-headig::before, #wcfm_menu .wcfm_menu_items a.wcfm_menu_item::before {
+	right: 0;
+	left: auto;
+}
+
+.wcfm_dashboard_welcome_container {
+	margin-left: 0px;
+	margin-right: 75px;
+}
+
+.wcfm_dashboard_welcome_content {
+	padding-left: 0px;
+	padding-right: 80px;
+}
+
+div.wcfm-collapse-content h2 {
+	float: right;
+}
+
+.wcfm_header_panel {
+	float: left;
+}
+
+ul.wcfm_products_menus, ul.wcfm_listings_menus, ul.wcfm_orders_menus {
+	float: right !important;
+}
+
+.wcfm_screen_manager_dummy, .wcfm_screen_manager, .wcfm_wp_admin_view, a.add_new_wcfm_ele_dashboard, a.wcfm_import_export, #order_quick_actions, input.wcfm_submit_button, input.upload_button, input.remove_button, .multi_input_block_manupulate {
+	float: left;
+}
+
+.onoffswitch-inner {
+	margin-right: -100%;
+	margin-left: auto;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  float: right;	
+}
+
+.onoffswitch-inner:after {
+	text-align: left;
+	padding-left: 25px;
+}
+
+.onoffswitch-inner:before {
+	text-align: left;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+	margin-right: 0;
+}
+
+.page_collapsible .fa {
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+.wcfm-tabWrap .fa-arrow-circle-o-right {
+	float: left !important;
+}
+
+.wcfm-tabWrap .fa-arrow-circle-o-right:before {
+	content: "\f190";
+}
